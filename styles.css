@@ -7,7 +7,7 @@ body {
 
 .container {
     margin: auto;
-    max-width: 560px;
+    max-width: 780px;
 }
 
 .logo {
@@ -16,5 +16,5 @@ body {
 
 .content {
     margin-top: 35px;
-    line-height: 1.75; 
+    line-height: 1.75;
 }
