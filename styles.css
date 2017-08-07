@@ -115,10 +115,32 @@ input#mc-embedded-subscribe {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    font-size: 30px;
-  }
-  .logo img {
-      max-width: 100%;
-  }
+      body {
+        font-size: 30px;
+      }
+
+      .logo img {
+          max-width: 100%;
+      }
+
+      input#mce-FNAME {
+        font-size: 30px;
+        border: 1px solid #EB8787;
+        padding: 5px;
+        margin-bottom: 20px;
+        font-style: italic;
+        border-radius: 10px;
+        height: 50px;
+        width: 100%;
+    }
+    input#mce-EMAIL {
+        font-size: 30px;
+        border: 1px solid #EB8787;
+        padding: 5px;
+        margin-bottom: 20px;
+        font-style: italic;
+        border-radius: 10px;
+        height: 50px;
+        width: 100%;
+    }
 }
