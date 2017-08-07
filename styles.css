@@ -19,7 +19,7 @@ body {
     line-height: 1.75;
 }
 
-@media (max-width: 600px) {
+@media screen (max-width: 600px) {
   body {
     font-size: 30px;
   }
