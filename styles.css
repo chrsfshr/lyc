@@ -23,4 +23,7 @@ body {
   body {
     font-size: 30px;
   }
+  .logo img {
+      max-width: 100%;
+  }
 }
