@@ -115,13 +115,15 @@ input#mc-embedded-subscribe {
 }
 
 @media only screen and (max-width: 600px) {
-      body {
-        font-size: 30px;
-      }
 
-      .logo img {
-          max-width: 100%;
-      }
+    .logo img {
+        width: 100%;
+        max-width: 325px;
+    }
+
+    .content {
+        margin: 25px;
+    }
 
       input#mce-FNAME {
         font-size: 30px;
@@ -132,6 +134,7 @@ input#mc-embedded-subscribe {
         border-radius: 10px;
         height: 50px;
         width: 100%;
+        max-width: 300px;
     }
     input#mce-EMAIL {
         font-size: 30px;
@@ -142,5 +145,6 @@ input#mc-embedded-subscribe {
         border-radius: 10px;
         height: 50px;
         width: 100%;
+        max-width: 300px;
     }
 }
