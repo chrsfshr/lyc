@@ -51,6 +51,14 @@ body {
 a {
     color: #EB8787;
 }
+
+span {
+	color: #EB8787;
+}
+
+.img-box {
+	border: 1px solid #EB8787;
+}
 .container {
     margin: auto;
     max-width: 780px;
@@ -76,6 +84,11 @@ a {
 .content {
     margin-top: 35px;
     line-height: 1.75;
+}
+
+.shirts {
+	display: flex;
+	justify-content: space-around;
 }
 
 .header-ty {
@@ -126,6 +139,14 @@ input#mc-embedded-subscribe {
         width: 100%;
         max-width: 325px;
     }
+
+	.shirts {
+		display: block;
+	}
+
+	.img-box {
+		margin-bottom: 15px;
+	}
 
     .content {
         margin: 25px;
